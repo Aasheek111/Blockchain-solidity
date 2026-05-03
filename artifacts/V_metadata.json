@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Calculator.sol": "Hello"
+			"contracts/Calculator.sol": "V"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/Calculator.sol": {
-			"keccak256": "0x2a0974f54d7491042a85b0c2e38f9e20f1e598e0ca0dce1a91e120532e3d9baf",
+			"keccak256": "0x3f2b6f8bd5a4d544aca816718098018df0164095bf2ab7e124e44d07a29d05f9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7ad60d0a634db430760d72a85b5b1ee68ae713a4ff40b5bcf180f7ded4369981",
-				"dweb:/ipfs/QmPB7gCSY62RmnETBT3QT7uVsEHz8X49mwGdueM88bZsxU"
+				"bzz-raw://d58879840f5bb46ac6a4487712f5fd3c9b37a46f0d65e10d0a3629b81836475f",
+				"dweb:/ipfs/QmVHHWXx6Gnsj7fnGZbZcfhtHNWaWP3JLJ6psskVgkV6YK"
 			]
 		}
 	},

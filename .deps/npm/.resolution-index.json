@@ -31,14 +31,6 @@
       }
     }
   },
-  "contracts/simplestore.sol": {
-    "__sources__": {
-      "contracts/simplestore.sol": {
-        "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract store{\n\n    uint  public favnum;\n\n    function storing(uint fav) public{\n        favnum = fav;\n    }\n    //struct \n    struct People{\n        uint favnum;\n        string name;\n    }\n\n// People public people =People({favnum: 10, name: \"sajid\"});\n\nmapping(string=>uint) public nameToFavNum;\n\nPeople[] public people;\n//memory for temporary and storage for permanent \n//if we use string as a paramater then we have you use either memory or storage\nfunction addPerson(uint fav, string  memory naam )public {\n    people.push(People(fav,naam));\n    //mapping \n    nameToFavNum[naam]=fav;\n}\nfunction getdata() public view returns (People[] memory){\n     return people;\n}\n\n    function retrive() public view returns (uint){\n        return favnum;\n    }\n\n}\n",
-        "file": "contracts/simplestore.sol"
-      }
-    }
-  },
   "contracts/Simplestorage.sol": {
     "__sources__": {
       "contracts/Simplestorage.sol": {
@@ -52,6 +44,22 @@
       "contracts/Hello.sol": {
         "content": "// SPDX-License-Identifier: MIT\n\npragma solidity ^0.8.0;\ncontract Hello{\n    string public greet = \"Hello\";\n}\n",
         "file": "contracts/Hello.sol"
+      }
+    }
+  },
+  "contracts/simplestore.sol": {
+    "__sources__": {
+      "contracts/simplestore.sol": {
+        "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract store{\n\n    uint  public favnum;\n\n    function storing(uint fav) public{\n        favnum = fav;\n    }\n    //struct \n    struct People{\n        uint favnum;\n        string name;\n    }\n\n// People public people =People({favnum: 10, name: \"sajid\"});\n\nmapping(string=>uint) public nameToFavNum;\n\nPeople[] public people;\n//memory for temporary and storage for permanent \n//if we use string as a paramater then we have you use either memory or storage\nfunction addPerson(uint fav, string  memory naam )public {\n    people.push(People(fav,naam));\n    //mapping \n    nameToFavNum[naam]=fav;\n}\nfunction getdata() public view returns (People[] memory){\n     return people;\n}\n\n    function retrive() public view returns (uint){\n        return favnum;\n    }\n\n}\n",
+        "file": "contracts/simplestore.sol"
+      }
+    }
+  },
+  "contracts/Calculator.sol": {
+    "__sources__": {
+      "contracts/Calculator.sol": {
+        "content": "// SPDX-License-Identifier: MIT\n\npragma solidity ^0.8.0;\ncontract Calculator{\n    int result;\n\n    function add(int a, int b) public {\n        result= a+b;\n    }\n    function sub(int a, int b) public pure returns (int){\n        return a-b;\n    }\n    function mul(int a, int b) public pure returns (int){\n        return a*b;\n    }\n    function div(int a, int b) public pure returns (int){\n        return a/b;\n    }\n    function display() public view  returns (int){\n        return result;\n    }\n\n}\n",
+        "file": "contracts/Calculator.sol"
       }
     }
   }
