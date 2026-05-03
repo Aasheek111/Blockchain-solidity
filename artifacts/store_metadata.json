@@ -1,0 +1,151 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "fav",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "naam",
+						"type": "string"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "favnum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getdata",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "favnum",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							}
+						],
+						"internalType": "struct store.People[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favnum",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrive",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "fav",
+						"type": "uint256"
+					}
+				],
+				"name": "storing",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/simplestore.sol": "store"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/simplestore.sol": {
+			"keccak256": "0x6c2c7c5f11c25be55ba48b5a4cd0f059b7dbea50f04d75e903b823ea1b43610f",
+			"urls": [
+				"bzz-raw://cb5000b6db6519c6f35bfee53d9fdfc2c3ee3477bfea745b82a68a1bd030f3e3",
+				"dweb:/ipfs/QmQ6dY5j6DmiHB4z93jo1dwmbhxKf6NYqAgXa1ie7TrTbM"
+			]
+		}
+	},
+	"version": 1
+}
