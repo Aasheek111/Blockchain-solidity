@@ -64,6 +64,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavNum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -140,10 +159,11 @@
 	},
 	"sources": {
 		"contracts/simplestore.sol": {
-			"keccak256": "0x6c2c7c5f11c25be55ba48b5a4cd0f059b7dbea50f04d75e903b823ea1b43610f",
+			"keccak256": "0x1003a62139819168ecade17fc341d835d0714527642c1fd851164b652f66fd31",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://cb5000b6db6519c6f35bfee53d9fdfc2c3ee3477bfea745b82a68a1bd030f3e3",
-				"dweb:/ipfs/QmQ6dY5j6DmiHB4z93jo1dwmbhxKf6NYqAgXa1ie7TrTbM"
+				"bzz-raw://af87440a908f13ff1caf380d502fcae2c1b11bc4e770e1b53f6de9e346b1df0e",
+				"dweb:/ipfs/QmbjaZiKZpjJXpyGSw1DJTGZrLd3ZNP56R3wKaPdA2z4F3"
 			]
 		}
 	},
